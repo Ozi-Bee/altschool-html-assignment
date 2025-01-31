@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS Assignment 1</title>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            body{
+                width: 1000px;
+                
+                margin: 25px auto;
+                background-color: aqua;
+            }
+            header{
+                margin-bottom: 10em;
+                font-size: 25px;
+            }
+            
+            .content{
+                
+                padding-left: 20%;
+                padding-top: 15px;
+                width: 1000px;
+                height: 450px;
+                
+            }
+            .grey{
+                background-color: rgb(246, 243, 243);
+
+                width: 900px;
+                height: 500px;
+                background: radial-gradient(whitesmoke 80%, #b5bdca );
+                flex-direction: column;
+                
+            }
+            .light-grey{
+                background: radial-gradient( whitesmoke 50%, #eaecec 40% ); 
+                flex-direction: column;
+                border: none;
+                border-radius: 2px;
+                 width: 900px;
+                height: 455px;
+                
+                position: relative;
+                top: 10px;
+                left: -10px;
+                right: 20px;
+                bottom: -10px;
+                margin: 10px 10px;
+            }
+            .black{
+                background: #030e0f;
+                flex-direction: column;
+                border: none;
+                width: 900px;
+                height: 435px;
+                position: relative;
+                top: 5px;
+                bottom: -10px;
+                /*right: 10px;
+                left: 20px;*/
+            }
+         .white{
+            background-color: white;
+            width: 420px;
+                height: 260px;
+            border-radius: 6px;
+            font-family: 'Gill Sans MT', Lucida, 'Trebuchet MS';
+            font-weight: 700;
+            align-content: center;
+            text-align: justify;
+            margin: -10px 90px auto;
+            padding: 2em 38px;
+        
+            
+         } 
+         .white p{
+            margin-top: 27px;
+            font-size: 18px;
+            line-height: 1.5;
+            text-align: justify;
+            top: 5em;
+            
+            
+            
+        
+        
+         }
+           
+         .pink{
+            background-color: #ef1875;
+            
+            font-weight: 900;
+            font-size: 25px;
+            
+            height: 2.5em;
+            border-radius: 4px;
+            width: 13em;
+            text-align: center;
+            align-content: center;
+            position: relative;
+            top: 40px;
+            margin-left: 5em ;
+            font-family: 'Franklin Gothic Medium';
+        
+            
+         }
+         
+         @media screen and (max-width: 760px) {
+  body {
+    background-color: rgb(20, 59, 64);
+  }
+  h1{
+    color: whitesmoke;
+  }
+  p{
+    color: #030e0f;
+    font-family: Tahoma;
+    
+  }
+}
+        
+        </style>
+    </head>
+    <body>
+
+        <header>
+            <h1>Converting The Design in The Picture to Html and CSS</h1>
+            <aside><img
+                src="https://github.com/Oluwasetemi/css-v3/raw/main/class-notes/image-5.png"
+                alt="reference image" width="400px"></aside>
+            
+        </header>
+        <main id="content">
+
+            <div class="grey">
+                <div class="light-grey">
+                    <div class="black">
+                        <div><p class="pink">
+                                An Otter Essay
+                            </p></div>
+
+                        <div class="white">
+
+                            <p>Otters have long, slim bodies and relatively
+                                short limbs.
+                                Their most striking anatomical features are the
+                                powerful
+                                webbed feet used to swim, and their seal-like
+                                abilities
+                                holding breath underwater.</p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </main>
+
+    </body>
+</html>

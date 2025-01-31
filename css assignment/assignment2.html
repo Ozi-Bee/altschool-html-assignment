@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS Assignment2</title>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+
+
+body {
+  
+  line-height: 1.5;
+   width: 1100px;
+    background-color: aqua;
+    font-weight: 550;
+    
+    
+}
+
+
+
+
+p, h1, h2{
+  overflow-wrap: break-word;
+}
+
+
+p {
+  text-wrap: pretty;
+}
+h1, h2 {
+  text-wrap: balance;
+}
+
+.container{
+    background-color: #92999d;
+    width: 1000px;
+    height: 800px;
+    display: flex;
+    
+
+    
+}
+.gray{
+    background-color: #d9e1e8;
+    background: radial-gradient(#92999d 20% , #e2e7eb 65%);
+    direction: column;
+    width: 900px;
+    height: 700px;
+    margin: auto;
+    padding: 43px;
+    
+}
+  .white-page{
+    background-color: white;
+    padding-top: 20px;
+    max-width: 500px;
+    min-width: 300px;
+    margin: auto;
+    padding-top: 25px;
+    overflow: hidden;
+    
+
+    
+  }
+  .large{
+    width: 53%;
+    height: 600px;
+    float: left;
+    font-size: 12px;
+    padding-top: 50px;
+    
+    
+  } 
+  .medium{
+    width: 30%;
+    height: 600px;
+    float: right;
+  }
+  .yellow-divider{
+    background-color: #ffcc00;
+    height: 50px;
+    width: 280px;
+    margin-top: 3px;
+    text-align: justify;
+    padding-top: auto;
+  }
+.divider-small{
+    background-color: #d9e1e8;
+    height: 10px;
+    margin-top: 35px;
+}
+.divider-large{
+    background-color: #7b8286;
+    height: 55px;
+}
+h2,p{
+    padding-left: 12px;
+    padding-right: 12px;
+}
+a{
+    text-decoration: none;
+    color: #428eb7;
+}
+    
+                
+            
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>
+                CONVERTING DESIGN TO HTML & CSS
+            </h1>
+            <img src="Huckleberry img.png" alt="Huckblerry image" width="300px"
+                height="200px">
+        </header>
+        <main>
+
+            <div class="container">
+                <div class="gray">
+
+                    <div class="white-page large">
+                        <h2>Huckleberry</h2>
+                        <p class="top-text">An avant-garde agency focused on
+                            <br><a href="https://css-tricks.com/">passion</a>
+                            
+                            with <a href="https://blog.hubspot.com/website/center-div-css">logistics</a>.</p>
+                        <br>
+                        <p class="top-text">A better way to solve the
+                            problems
+                            of
+                            tomorrow.</p>
+
+                        <div class="divider-large">
+                            <div class="divider-small"></div>
+
+                        </div>
+                        <div class="yellow-divider">
+                            <p>Wealth comes from operations</p>
+                        </div>
+                        <p>
+                            No modern business can thrive without developing
+                            a
+                            specialization in operations.Huckleberry has
+                            helped
+                            dozens of companies from Fortune 50 monolights
+                            to
+                            fast growing
+                            Bay Area startups.
+                            , achieve their goals and meet their KPI's by
+                            leaveraging our extensive network of logistics
+                            experts.</p>
+                        <br>
+                        <p> Huckleberry was established in 2003 to help
+                            ambitious business discover their true
+                            potential.
+                            If the resonates, let's chat!
+                        </p>
+                        <div class="divider-large">
+                            <div class="divider-small"></div></div>
+                    </div>
+
+                        <div class="white-page medium">
+                            <h2>Huckleberry</h2>
+                            <p class="top-text">An avant-garde agency
+                                focused on
+                                connecting
+                                passion
+                                with logistics.</p> <br>
+                            <p class="top-text">A better way to solve the
+                                problems of
+                                tomorrow.</p>
+
+                            <div class="divider-large">
+                                <div class="divider-small"></div>
+
+                            </div>
+                            <div class="yellow-divider">
+                                <p>Wealth comes from <br>operations</p>
+                            </div>
+                            <p>
+                                No modern business can thrive without
+                                developing
+                                a
+                                specialization in operations.Huckleberry has
+                                helped
+                                dozens of companies from Fortune 50
+                                monolights
+                                to
+                                fast growing
+                                Bay Area startups.
+                                , achieve their goals and meet their KPI's
+                                by
+                                leaveraging our extensive network of
+                                logistics
+                                experts.</p>
+                            <br>
+                            <p> Huckleberry was established in 2003 to help
+                                ambitious business discover their true
+                                potential.
+                                If the resonates, let's chat!
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </main>
+    </body>
+</html>
