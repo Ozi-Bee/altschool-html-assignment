@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ALT SCHOOL application form (Assignment1b)</title>
+        <style>
+            *{
+                box-sizing: border-box;
+                padding: 0;
+                margin: 0;
+            }
+            body{
+                margin: 2em;
+                padding: 5px;
+                align-items: center;
+                align-content: center;
+                width: 600px;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+            }
+
+            label{
+                display: block;
+                width: 100%;
+                margin-top: 25px;
+                margin-bottom: 10px;
+                
+                
+            }
+    
+            input{
+                display: block;
+                width: 70%;
+                height: 25px;
+                
+            }
+            
+            label + input{
+                background-color: #e2ddce;
+                
+            }
+            
+            #signup-button{
+                background-color: #1f53a7;
+
+                border: none;
+                height: 3em;
+                font-weight: 700;
+                border-radius: 3px;
+                margin-top: 2.5em;
+            }
+
+            figcaption{
+                font-family: cursive;
+                font-weight: 900;
+                font-size: 40px;
+                text-align: center;
+                width: fit-content;
+                
+            }
+             aside{            
+                position: fixed;
+                top: 6rem;
+                padding-left: 45%;
+                padding-top: 10%;
+                background-position: right center;
+                
+            }
+            aside  img {
+            width: 350px;
+            
+            }
+
+            h1{
+                background-color: aliceblue;
+            }
+            figure:has(figcaption){
+                /*border: 1px solid saddlebrown;*/
+                color: #1f53a7;
+                margin-left: 7rem;
+                position: sticky;
+                
+                     
+                
+            }
+            [href^="https://altschoolafrica.com"]{
+                color:chocolate;
+            }
+            [href$="policy"]{
+                color: yellowgreen;
+            }
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Apply to Altschool School of Engineering </h1>
+            <aside>
+                <figure>
+                    <img
+                        src="https://media.istockphoto.com/id/1143049615/photo/young-woman-with-a-graduation-hat-and-diploma-sitting-with-a-laptop-and-books.jpg?s=612x612&w=0&k=20&c=mp0hl46T4swa8RR7v7AnlL56Nz9QeQpZBlo4lIqFE8E=">
+                    <figcaption>learn highly sought after skills without
+                        hassle</figcaption>
+                </figure>
+            </aside>
+        </header>
+
+        <form action="https://portal.altschoolafrica.com/auth/crete-account"
+            method="get" target="_blank">
+            <div class="container">
+                <div class="divider-column1">
+                    <label for="name">First Name</label>
+                    <input type="text" id="first-name" name="first-name"
+                        placeholder="First Name">
+                </div>
+                <div class="divider-column2"><label for="name">Last
+                        Name</label>
+                    <input type="text" id="name" name="last-name"
+                        placeholder="Last Name"></div>
+
+                <div class="divider-column1">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email"
+                        placeholder="Email">
+                </div>
+
+                <label for="gender">Gender</label>
+                <select name="gender" id="gender">
+                    <option value="*">Select gender</option>
+                    <option value="1">Male</option>
+                    <option value="2">Female</option>
+                </select>
+                <label for="birthday">Date of Birth</label>
+                <input type="date" id="birthday" name="birthday">
+                <label for="phone number">Phone Number</label>
+                <input type="number" id="phone number" name="phone number"
+                    placeholder="Phone Number">
+                <label for="country">Country of Residence</label>
+                <select id="country">
+                    <option value="*">Country of Residence</option>
+                    <option value="1">Algeria</option>
+                    <option value="2">France</option>
+                    <option value="3">Kenya</option>
+                    <option value="4">Nigeria</option>
+                    <option value="3">Malawi</option>
+                    <option value="2">Uganda</option>
+
+                </select>
+                <label for="state">State of Residence</label>
+                <input type="text" id="state" name="state"
+                    placeholder="State of Residence">
+                <label for="password">Password</label>
+                <input type="password" id="state" name="state"
+                    placeholder="password">
+                <label for="state">State of Residence</label>
+                <input type="password" id="confirm password"
+                    name="confirm password"
+                    placeholder="Confirm password">
+                <label for="state">How did you hear about us?</label>
+                <input type="text" id="referrer" name="referrer"
+                    placeholder="Optional: Let us know how you found us">
+            </div>
+            <p>By clicking continue, i agree to <a
+                    href="https://altschoolafrica.com/terms-and-conditions">Terms
+                    of Use</a> and acknowledge
+                that i have read the <a
+                    href="https://altschoolafrica.com/privacy-policy">Privacy
+                    Policy</a>.</p>
+            <input type="button" id="signup-button" name="signup-button"
+                value="Sign Up">
+        </form>
+        <footer>
+            <p>
+                Author: Akubuo Ozioma Blessing
+                Email: blessingozed4gmail.com
+            </p>
+        </footer>
+
+    </body>
+</html>

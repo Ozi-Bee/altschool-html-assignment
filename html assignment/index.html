@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Assignment1</title>
+        <style>
+            
+body {background-color: #0e0e0e;
+    color: rgb(158, 108, 43);
+    font-size: 18px;
+width: 600px;
+margin: 10px auto;
+line-height: 1.5em;
+text-align: justify;
+
+
+}
+h1 ,h2  {color: hsl(59, 45%, 50%);}
+p  {color: #f1e2e2;}
+
+.form-group {
+    display: inline-block;
+    width: 100%;
+    min-height: 40px;
+    vertical-align: top;
+    padding-top: 5px;
+    text-align: justify;
+
+}
+header{
+    position: sticky;
+    top: 0;
+    background-color: black;
+
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    float: right;
+}
+#nav-bar li{
+    display: inline-block;
+    position: relative;
+    right: -3.6em;
+    align-content: center;
+    top: -7px;
+}
+.nav-link a{
+    color: antiquewhite;
+    text-decoration: none;
+    
+}
+input{
+    border: none;
+    margin-top: 10px;
+}
+
+
+.first-text{
+    font-size: 20px;
+}
+
+@media screen and (max-width: 480px) {
+    .first-text{
+        font-size: 12px;
+    }
+    .form-group{
+        display: inline;
+    }
+}
+</style>
+    </head>
+    <body>
+        <header id="header">
+            <nav id="nav-bar">
+            <ul>
+                <li class="nav-link"><a
+                        href="#Basic INFO">Basic-info |</a></li>
+                <li class="nav-link"><a href="#About Me">About Me | </a></li>
+                <li class="nav-link"><a href="#Vision">Vision</a></li>
+            
+            </ul>
+        </nav>
+            <h1>Assignment1 Index.html File</h1>
+            
+    </header>
+    <main id="main">
+    <p class="first-text"><em>A webpage displaying my basic information and the
+            reason i joined
+            Altschool.</em></p>
+    <form>
+        <section id="Basic INFO">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name"
+                    name="name"
+                    value="Akubuo Ozioma Blessing"></div>   
+
+                <div class="form-group">
+<label for="email">Email:</label>
+                <input type="email" id="email"
+                    name="email"
+                    value="blessingozed4@gmail.com">
+                </div>
+
+                <div class="form-group">
+<label for="occupation">Occupation: </label>
+                <input type="text"
+                    id="occupation" name="occupation"
+                    value="Student">
+                </div>
+
+                <div class="form-group">
+<label for="Department">Department at Altschool: </label>
+                <input type="text"
+                    id="Department" name="track" value="School of Engineering">
+                </div>
+                <div class="form-group">
+<label for="Alt-ID">Altschool ID:</label>
+                <input type="password" value="ALT/SOE/024/5814" id="Alt-ID">
+                </div>
+                <div class="form-group">
+<label for="sex">Sex: </label>
+                <input type="text" id="sex" name="sex"
+                        value="Female">
+                </div></div>
+                <div>
+                    <p>Position at Altschool</p>
+
+                    <div class="form-group">
+<input type="radio"
+                        id="student" name="student" checked>
+<label for="student">Student</label>
+                    </div>
+                    <div class="form-group">
+                                           <input type="radio"
+                        id="teacher" name="teacher"> 
+                        <label for="teacher">Teacher</label>
+                    </div>
+
+
+                </div>
+            </section>
+
+            <section id="About Me">
+                <h2>About Me</h2>
+                <p>Hi, my name is Ozioma, Ozi as my friends would fondly call
+                    me.I am a newbie dabbling into the tech space.</p>
+                <p>I have a degree in biochemistry from the University of Benin
+                    in Edo state Nigeria.</p>
+                <p>I love to bake, sing and watch movies but not so much since
+                    altschool started lol.</p>
+                <p>I am grateful for the opportunity to study here at Altschool
+                    all thatnks to miss Kiki Mordi and the management of
+                    Altschool</p>
+
+            </section>
+            <section id="Vision">
+                <h2>Vision</h2>
+                <p>To be world-class software engineer seasoned with dilligence and excellence!</p>
+                <h2>Why I joined Altschool</h2>
+                <p>I had just piqued interest in learning a skill after trying
+                    to apply to jobs and seeing that the statistic of the job
+                    market had changed and required people to upskill,
+                    and also demanded more than just being a gradute of a
+                    tertiary institution.
+                    I oneday bumped into a tweet during my scroll time on X and
+                    saw that Miss Kiki alongside some others were offering
+                    scholarship to ladies who wanted to upskill in tech, so i
+                    took the opportunity and applied.
+                </p>
+                <p>I am here at Altshool to build my confidence, level up my
+                    skills and prepare myself for the global market.</p>
+                <h2>Goals For School of Engineering:</h2>
+                <ol>
+                    <li>Build world-class projects</li>
+                    <li>Research and take on projects</li>
+                    <li>Be a team player</li>
+                </ol>
+            </section>
+
+        </form>
+        
+    </main>
+    <footer id="footer">
+            <p>Author: Akubuo Ozioma Blessing <br>
+                <a href="blessingozed4@gmail.com">Send a mail!</a></p>
+            <p><a href="#header">Scroll UP!</a></p>
+        </footer>
+    </body>
+</html>

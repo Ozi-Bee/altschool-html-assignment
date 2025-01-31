@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>A Table of Courses at Altschool</title>
+        <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            
+        }
+        body{
+            margin: 30px 5;
+            padding: 2px;
+        }
+        .content-table{
+            /*border-collapse: collapse;*/
+            margin: 25px 0;
+            font-size: 0.9em;
+            min-width: 400px;
+            min-height: 30em;
+            border-radius: 5px 0 0;
+            overflow: hidden;
+        }
+        .content-table thead tr{
+            background-color: #135353;
+            color: white;
+            text-align: left;
+            border: 1px solid white;
+            font-size: 20px;
+            font-weight: 700;
+        }
+        .content-table th{
+            border-right: 1px solid #135353;
+            border-bottom: 2px solid #135353;
+        }
+        .content-table th,
+        .content-table td{
+            padding: 12px 15px;
+        }
+        .content-table tbody tr{
+            border-bottom: 1px solid #a9bfbf;
+            font-family: Lucida, sans-serif;
+        }
+        .content-table tbody td {
+            background-color: #d7dede;
+            border-bottom: 2px solid #135353;
+            height: 3em;
+        }
+        .content-table tbody tr:last-of-type{
+            border-bottom: 2px solid #135353;
+        }
+        p{
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 22px;
+        font-weight: 700;
+        color: #011c16;
+        }
+        @media screen and (max-width=480px) {
+             
+            p{
+                color: red;
+            }
+        }
+
+    </style>
+    </head>
+    <body>
+        <p>A comprehensive list of the schools and their courses at
+            Altschool</p>
+        <section>
+            <table class="content-table">
+                <thead>
+                    <tr><th>School</th>
+                        <th colspan="3">Course</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+
+                    <tr>
+                        <th>School of Engineering</th>
+                        <td>Front-end Engineering</td>
+                        <td>Back-end Engineering</td>
+                        <td>Cloud Engineering</td>
+                    </tr>
+                    <tr>
+                        <th>School of Product</th>
+                        <td>Product Design</td>
+                        <td>Product Marketing</td>
+                        <td>Product Management</td>
+                    </tr>
+                    <tr>
+                        <th>School of Data</th>
+                        <td>Data Engineering</td>
+                        <td>Data Science</td>
+                        <td>Data Analysis</td>
+                    </tr>
+                    <tr>
+                        <th>School of Business</th>
+                        <td>Finance</td>
+                        <td>Marketing</td>
+                        <td>Entrepreneurship</td>
+                    </tr>
+                    <tr>
+                        <th>School of Creative Arts</th>
+                        <td>Content Creation</td>
+                        <td>Music Business</td>
+                        <td>Afrobeat</td>
+                    </tr>
+                </tbody>
+
+            </table>
+        </section>
+
+    </body>
+</html>
